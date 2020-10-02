@@ -30,9 +30,9 @@ def get_japanese_emoticon(file_path, eng_emo)
 end
 # binding.pry
 
-def get_english_meaning
+def get_english_meaning(file_path, emoticon)
   emoticons = load_library(file_path)
   
-  #emoticons.each do |key, value|
+  emoticons.each do |key, value|
   
 end
