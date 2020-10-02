@@ -12,7 +12,7 @@ def load_library(file_path)
     emo_dict[key] = {}
     emo_dict[key][:english] = value[0]
     emo_dict[key][:japanese] = value[1]
-       binding.pry
+binding.pry
   end
     
 end
