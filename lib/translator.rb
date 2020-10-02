@@ -10,8 +10,8 @@ def load_library(file_path)
 
   emoticons.each_with_object({}) do |(key, value), emo_dict|
     emo_dict[key] = {}
-    emo_dict[key][:english] = value [0]
-    emo_dict[key][:japanese] = value
+    emo_dict[key][:english] = value[0]
+    emo_dict[key][:japanese] = value[1]
        binding.pry
   end
     
