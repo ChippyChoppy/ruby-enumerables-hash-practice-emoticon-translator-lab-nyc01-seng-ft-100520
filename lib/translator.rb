@@ -24,10 +24,11 @@ def get_japanese_emoticon(file_path, eng_emo)
       return value[:japanese]
     end
   end
-  binding.pry
+ 
   return "Sorry, that emoticon was not found"
   
 end
+ binding.pry
 
 def get_english_meaning
   emoticons = load_library(file_path)
