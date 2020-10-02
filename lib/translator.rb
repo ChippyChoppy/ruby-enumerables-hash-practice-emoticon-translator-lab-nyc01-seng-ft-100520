@@ -23,7 +23,7 @@ def get_japanese_emoticon(file_path, eng_emo)
     if value[:english] == eng_emo
       value[:japanese]
     end
-    binding.pry 
+   # binding.pry 
   end
   
 end
