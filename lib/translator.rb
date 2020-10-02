@@ -6,7 +6,7 @@ emoticons = YAML.load_file("lib/emoticons.yml")
 emoticons 
 
 def load_library(file_path)
-  emoticons = YAML.load_file("lib/emoticons.yml") 
+  emoticons = YAML.load_file(file) 
 
   emoticons.each_with_object({}) do |(key, value), emo_dict|
     emo_dict[key] = {}
