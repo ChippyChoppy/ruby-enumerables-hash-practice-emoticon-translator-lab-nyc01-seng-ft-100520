@@ -24,6 +24,7 @@ def get_japanese_emoticon(file_path, eng_emo)
       value[:japanese]
     end
     binding.pry 
+  end
   
 end
 
