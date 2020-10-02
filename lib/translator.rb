@@ -23,7 +23,7 @@ def get_japanese_emoticon(file_path, eng_emo)
     if value[:english] == eng_emo
       return value[:japanese]
     end
-     "Sorry, that emoticon was not found"
+    return "Sorry, that emoticon was not found"
    # binding.pry 
   end
   
