@@ -21,7 +21,7 @@ def get_japanese_emoticon(file_path, eng_emo)
   
   emoticons.each do |key, value|
     if value[:english] == eng_emo
-      value[:japanese]
+      return value[:japanese]
     end
   end
   return "Sorry, that emoticon was not found"
