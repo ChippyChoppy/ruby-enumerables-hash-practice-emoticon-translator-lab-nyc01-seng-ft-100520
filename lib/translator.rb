@@ -30,6 +30,6 @@ end
 def get_english_meaning
   emoticons = load_library(file_path)
   
-  emoticons.each do |key, value|
+  #emoticons.each do |key, value|
   
 end
